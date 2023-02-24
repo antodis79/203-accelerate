@@ -62,7 +62,7 @@ div.case-study-images {
 }
 
 img {
-    width: 100%;
+    padding-bottom: 55px;
 }
 
 h2 {
@@ -90,4 +90,41 @@ h6 {
 p {
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #45ac9d;
+    font-weight: bold;
+}
+
+/*Homepage featured work*/
+
+.featured-work h4 {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+li.individual-featured-work {
+    list-style-type: none;
+    float: left;
+    width: 300px;
+    padding-left: 35px;
+    text-align: center;
+}
+
+li.individual-featured-work figure {
+    width: 288px;
+    height: 212px;
+}
+
+li.individual-featured-work a {
+    text-transform: capitalize;
+    color: black;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 16.5px;
 }
