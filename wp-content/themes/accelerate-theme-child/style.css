@@ -51,14 +51,14 @@ Text Domain:  accelerate-theme-child
 
 aside.case-study-sidebar {
     float:left;
-    width: 300px;
+    width: 320px;
     margin: 0 100px 0 0;
 }
 
 div.case-study-images {
     float: left;
-    width: 500px; 
-    margin-top: 80px;
+    width: 540px; 
+    margin-top: 70px;
 }
 
 img {
@@ -128,3 +128,41 @@ li.individual-featured-work a {
     font-weight: 600;
     font-size: 16.5px;
 }
+
+/*Case studies archive*/
+
+aside.case-study-sidebar h2 a {
+    text-transform: capitalize;
+    color: black;
+    font-size: 23px;
+    font-weight:bold;
+}
+
+aside.case-study-sidebar h5 {
+    padding-bottom: 45px;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+#menu-social-media-nav {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu-item-47363 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+i {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.816);
+    border-radius: 50%;
+}
+

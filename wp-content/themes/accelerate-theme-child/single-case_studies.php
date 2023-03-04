@@ -32,9 +32,6 @@ get_header(); ?>
 
 		<p><strong><a href="<?php echo $link; ?>">VISIT LIVE SITE ></a></strong></p>
 	</aside>
-
-
-
 	<div class="case-study-images">
 		<?php if($image_1) { 
 			echo wp_get_attachment_image( $image_1, $size );
@@ -47,15 +44,10 @@ get_header(); ?>
 		<?php if($image_3) {
 			echo wp_get_attachment_image( $image_3, $size );
 		} ?>
-
 	</div>
 
-
-
-
-			<?php endwhile; // end of the loop. ?>
+	<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
-
-	</div><!-- #primary -->
+			</div><!-- #primary -->
 
 <?php get_footer(); ?>
