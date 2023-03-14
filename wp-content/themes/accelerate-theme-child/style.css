@@ -65,7 +65,7 @@ img {
     padding-bottom: 55px;
 }
 
-h2 {
+aside.case-study-sidebar h2 {
     margin: 0 auto;
     padding-top: 150px;
 }
@@ -147,6 +147,8 @@ div.case-study-images img {
 	height: auto;
 }
 
+/*Social media menu*/
+
 .social-media-menu li {
     margin-right: 10px;
     display: inline-block;
@@ -160,4 +162,40 @@ div.case-study-images img {
     color: white;
     padding: 7px;
 }
+
+/*Contact us*/
+
+h2 {
+    margin: 0;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+#primary.site-content.sidebar {
+    width: 630px;
+}
+
+
+div #nf-field-1-container {
+    clear: none;
+    float: left;
+    width: 47%;
+}
+
+div #nf-field-2-container {
+    float: right;
+    width: 47%;
+    clear: none;
+}
+
+#nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+    font-size: 15px;
+}
+
+#nf-field-4 {
+    background: #45ac9d;
+    float: right;
+    width: 35%;
+}
+
 
