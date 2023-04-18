@@ -198,4 +198,103 @@ div #nf-field-2-container {
     width: 35%;
 }
 
+/*About page*/
+
+.site-intro {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center/ cover rgba(0, 0, 0, 0);
+	text-align: center;
+    height: 300px;
+}
+
+.about-content {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.about-content p {
+    color: white;
+    font-size: 24px;
+    font-weight: 550;
+    padding-top: 70px;
+}
+
+.our-services h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.our-services p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.services-container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.services-container img {
+    width: 216px;
+    height: 216px;
+    padding-bottom: 0px;
+}
+
+.text-right {
+    float: right;
+    width: 70%;
+    padding-left: 70px;
+}
+
+.text-right h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-right p {
+    font-size: 16px;
+}
+
+.text-left {
+    float: left;
+    width: 70%;
+    padding-right: 70px;
+}
+
+.text-left h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-left p {
+    font-size: 16px;
+}
+
+.button-container {
+    border-top: 1px solid #bfbfbf;
+    margin: 0 auto;
+    max-width: 960px;
+    width: 90%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+}
+
+#button-text {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 110px;
+}
+
+.button-container a.button {
+    text-transform: capitalize;
+}
+
 
