@@ -297,4 +297,27 @@ div #nf-field-2-container {
     text-transform: capitalize;
 }
 
+/*404 page*/
+
+.error-page {
+    padding: 10px 0;
+}
+
+
+.error-page h3 {
+    color:#45ac9d;
+    font-size: 32px;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+.error-page p {
+    font-size: 28px;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    line-height: 1.5em;
+}
+
+
+
+
 
